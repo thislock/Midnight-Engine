@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "chaosfabric",
+	"id": "midnight-engine",
 	"version": "${version}",
-	"name": "ChaosFabric",
+	"name": "Midnight-Engine",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,18 +12,18 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/chaosfabric/icon.png",
+	"icon": "assets/midnight-engine/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"name.thislock.ChaosFabric"
+			"loch.midnight.MidnightEngine"
 		]
 	},
 	"mixins": [
-		"chaosfabric.mixins.json"
+		"midnight-engine.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.10",
+		"fabricloader": ">=0.16.13",
 		"minecraft": "~1.21.5",
 		"java": ">=21",
 		"fabric-api": "*"
